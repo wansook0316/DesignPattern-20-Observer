@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		CEED8C812AC2545000311572 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED8C802AC2545000311572 /* main.swift */; };
+		CEED8C882AC255C100311572 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED8C872AC255C100311572 /* Player.swift */; };
+		CEED8C8A2AC256C300311572 /* DiceGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED8C892AC256C300311572 /* DiceGame.swift */; };
+		CEED8C8E2AC2574E00311572 /* FairDiceGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED8C8D2AC2574E00311572 /* FairDiceGame.swift */; };
+		CEED8C902AC2588300311572 /* OddBettingPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED8C8F2AC2588300311572 /* OddBettingPlayer.swift */; };
+		CEED8C922AC258E500311572 /* EvenBettingPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED8C912AC258E500311572 /* EvenBettingPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		CEED8C7D2AC2545000311572 /* Observer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Observer; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEED8C802AC2545000311572 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CEED8C872AC255C100311572 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		CEED8C892AC256C300311572 /* DiceGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceGame.swift; sourceTree = "<group>"; };
+		CEED8C8D2AC2574E00311572 /* FairDiceGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FairDiceGame.swift; sourceTree = "<group>"; };
+		CEED8C8F2AC2588300311572 /* OddBettingPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddBettingPlayer.swift; sourceTree = "<group>"; };
+		CEED8C912AC258E500311572 /* EvenBettingPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenBettingPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				CEED8C802AC2545000311572 /* main.swift */,
+				CEED8C872AC255C100311572 /* Player.swift */,
+				CEED8C8F2AC2588300311572 /* OddBettingPlayer.swift */,
+				CEED8C912AC258E500311572 /* EvenBettingPlayer.swift */,
+				CEED8C892AC256C300311572 /* DiceGame.swift */,
+				CEED8C8D2AC2574E00311572 /* FairDiceGame.swift */,
 			);
 			path = Observer;
 			sourceTree = "<group>";
@@ -120,6 +135,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEED8C922AC258E500311572 /* EvenBettingPlayer.swift in Sources */,
+				CEED8C8A2AC256C300311572 /* DiceGame.swift in Sources */,
+				CEED8C902AC2588300311572 /* OddBettingPlayer.swift in Sources */,
+				CEED8C882AC255C100311572 /* Player.swift in Sources */,
+				CEED8C8E2AC2574E00311572 /* FairDiceGame.swift in Sources */,
 				CEED8C812AC2545000311572 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
